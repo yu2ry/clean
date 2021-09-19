@@ -1,0 +1,22 @@
+{
+    "name": "yu2ry/clean",
+    "authors": [
+        {
+            "name": "Yury Borisov",
+            "email": "yu2ry@rambler.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "laravel/framework": "8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yu2ry\\Clean\\": "src"
+        },
+        "classmap": [
+            "databases/factories",
+            "databases/seeds"
+        ]
+    }
+}
